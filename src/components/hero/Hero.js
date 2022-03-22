@@ -10,7 +10,7 @@ export const Hero = () => {
       <section classclassName="bg-white shadow my-4">
         <Container>
           <Row className="row align-items-center">
-            <div className="col-lg-7 col-xl-7 col-xxl-6">
+            <div className="col-lg-6 col-xl-6 col-xxl-6">
               <article className="my-5">
                 <h1 className="display-4">
                  Hello I'm<br />
@@ -29,7 +29,7 @@ export const Hero = () => {
                 </a>
               </article>
             </div>
-            <div className="col-lg-5 col-xl-5 col-xxl-6">
+            <div className="col-lg-6 col-xl-6 col-xxl-6">
               <figure className="mx-4 my-5">
                 <img src={image1} className="img-fluid" />
               </figure>
